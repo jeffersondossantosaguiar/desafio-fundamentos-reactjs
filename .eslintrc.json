@@ -25,6 +25,7 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
+    "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
@@ -44,7 +45,9 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-use-before-define": "off",
+    "camelcase": 0
   },
   "settings": {
     "import/resolver": {
